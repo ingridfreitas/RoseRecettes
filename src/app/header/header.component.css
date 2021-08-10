@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #ff0095;
+    border-radius: 10px;
+}
+a{
+    color: #ffffff;
+    text-decoration: #c40072;
+}
+.btn{
+    background-color: #ffd2ee;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+.btn a{
+    color: #000000;
+}
+form .btn{
+    border:1px solid #c40072;
+    color: #c40072;
+}

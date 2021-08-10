@@ -1,0 +1,41 @@
+.carousel {
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+img{
+    height: 450px;
+    border-radius: 10px;
+}
+.esti{
+    font-family: Helvetica;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    height: 35px;
+}
+.card{
+    border-radius: 10px;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 18px;
+}
+.btn-vw{
+    background-color: #ff0095;
+    color: #ffffff;
+    font-size: 18px;
+}
+span{
+    margin-right: 8px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.fig{
+    color: #ff004c;
+}

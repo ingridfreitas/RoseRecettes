@@ -1,0 +1,28 @@
+img{
+    height: 228px;
+    border-radius: 10px;
+}
+.btn-vw{
+    background-color: #ff0095;
+    color: #ffffff;
+    font-size: 15px;
+}
+.bloco{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+span{
+    margin-right: 6px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fig{
+    color: #fc92d3;
+    font-size: 23px;
+}
+.card{
+    border-radius: 10px;
+    height: 230px;
+}

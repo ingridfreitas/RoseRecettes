@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "projetoGrupoRecettes"
+    }
+  },
+  "defaultProject": "projetoGrupoRecettes",
+  "cli": {
+    "analytics": false
+  }
 }

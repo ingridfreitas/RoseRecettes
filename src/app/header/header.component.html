@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <div class="temas d-flex justify-content-between">
+    <button type="button" class="btn"> <a [routerLink]="['/doces']">Doces</a></button>
+    <button type="button" class="btn"><a [routerLink]="['/salgados']">Salgados</a></button>
+    <button type="button" class="btn"><a [routerLink]="['/bebidas']">Bebidas</a></button>
+    <button type="button" class="btn">Sobre</button>
+  </div>
+  <a class="navbar-brand" [routerLink]="['/']"><strong>Rose Recettes</strong></a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Pesquise Aqui" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+  </form>
+</nav>
