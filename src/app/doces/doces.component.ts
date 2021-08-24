@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DoceService } from './doce.service';
+import { Candy } from './doce/doce.model';
 
 @Component({
   selector: 'app-doces',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DocesComponent implements OnInit {
 
-  constructor() { }
+  doces: Candy[] = [];
+
+  constructor(private dcService : DoceService) { }
 
   ngOnInit(): void {
+    this.dcService.candy().subscribe(retorno =>{
+      this.doces = retorno;
+    });
+    console.log(this.doces);
   }
 
 }

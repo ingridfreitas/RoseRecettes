@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SalgadoService } from './salgado.service';
+import { Salg } from './salgado/salgado.model';
 
 @Component({
   selector: 'app-salgados',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SalgadosComponent implements OnInit {
 
-  constructor() { }
+  sal: Salg[] = [];
+
+  constructor(private sgService: SalgadoService) { }
 
   ngOnInit(): void {
+    this.sgService.sal().subscribe(retorno => {
+      this.sal = retorno;
+    })
   }
 
 }

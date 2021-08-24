@@ -1,0 +1,80 @@
+{
+  "doces": [
+    {
+      "id": "macarons",
+      "nome": "Macarons",
+      "desc": "Uma sobremesa crocante de recheio macio para te fazer sentir como uma verdadeira francesa em uma manhã de Paris!",
+      "fav": 7.009,
+      "imagePath":" /assets/MicrosoftTeams-image (18).png",
+      "link": "#"
+    },
+    {
+      "id": "iogurte",
+      "nome": "Iogurte Caseiro",
+      "desc": "Para refrescar e dar energia a sua manhã de forma plena e saudável, além de ser uma verdadeira delícia!",
+      "fav": 3.478,
+      "imagePath": "/assets/MicrosoftTeams-image (19).png",
+      "link": "#"
+    },
+    {
+      "id": "cake",
+      "nome": "Bolo de Morango",
+      "desc":" Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!",
+      "fav": 6.921,
+      "imagePath": "/assets/MicrosoftTeams-image (20).png",
+      "link": "#"
+    }
+  ],
+  "salgados": [
+    {
+      "id": "torta",
+      "nome": "Torta de Frango",
+      "desc": "Uma sobremesa crocante de recheio macio para te fazer sentir como uma verdadeira francesa em uma manhã de Paris!",
+      "fav": 7.009,
+      "imagePath":" /assets/MicrosoftTeams-image (21).png",
+      "link": "#"
+    },
+    {
+      "id": "salpicao",
+      "nome": "Salpicão",
+      "desc": "Para refrescar e dar energia a sua manhã de forma plena e saudável",
+      "fav": 3.478,
+      "imagePath": "/assets/MicrosoftTeams-image (22).png",
+      "link": "#"
+    },
+    {
+      "id": "cake",
+      "nome": "Salada Caeser",
+      "desc":"Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!",
+      "fav": 6.921,
+      "imagePath": "/assets/MicrosoftTeams-image (23).png",
+      "link": "#"
+    }
+  ],
+  "bebidas": [
+    {
+      "id": "limonada",
+      "nome": "Limonada Rosa",
+      "desc": "Para refrescar e dar energia a sua manhã de forma plena e saudável",
+      "fav": 3.478,
+      "imagePath":" /assets/MicrosoftTeams-image (16).png",
+      "link": "#"
+    },
+    {
+      "id": "milkshale",
+      "nome": "Milkshake de Framboesa",
+      "desc": "Uma sobremesa crocante de recheio macio para te fazer sentir como uma verdadeira francesa em uma manhã de Paris!",
+      "fav": 3.648,
+      "imagePath": "/assets/MicrosoftTeams-image (15).png",
+      "link": "#"
+    },
+    {
+      "id": "refresher",
+      "nome": "Refresher Tropical",
+      "desc":"Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!!",
+      "fav": 6.452,
+      "imagePath": "/assets/MicrosoftTeams-image (17).png",
+      "link": "#"
+    }
+  ],
+}

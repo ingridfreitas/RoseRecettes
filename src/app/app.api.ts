@@ -1,0 +1,1 @@
+export const ROSES_API = 'http://localhost:3000';
