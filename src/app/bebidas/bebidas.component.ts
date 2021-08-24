@@ -9,7 +9,7 @@ import { Drink } from './ebbida/bebida.model';
 })
 export class BebidasComponent implements OnInit {
 
-  bebs: Drink[];
+  bebs: Drink[] = [];
 
   constructor(private bbService : BebidaService) { }
 

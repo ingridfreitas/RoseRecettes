@@ -29,7 +29,7 @@
     {
       "id": "torta",
       "nome": "Torta de Frango",
-      "desc": "Uma sobremesa crocante de recheio macio para te fazer sentir como uma verdadeira francesa em uma manhã de Paris!",
+      "desc": "Todo mundo sabe comer uma boa torta, descubra se consegue fazer. Coloque suas habilidades em prática!",
       "fav": 7.009,
       "imagePath":" /assets/MicrosoftTeams-image (21).png",
       "link": "#"
@@ -37,7 +37,7 @@
     {
       "id": "salpicao",
       "nome": "Salpicão",
-      "desc": "Para refrescar e dar energia a sua manhã de forma plena e saudável",
+      "desc": "Quem disse que salpicão pertence ao ano novo? Coisa boa deve ser feita todo dia para a sua família!!",
       "fav": 3.478,
       "imagePath": "/assets/MicrosoftTeams-image (22).png",
       "link": "#"
@@ -45,7 +45,7 @@
     {
       "id": "cake",
       "nome": "Salada Caeser",
-      "desc":"Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!",
+      "desc":"Bora americanizar seu dia? Saudável e gostosa, tente a ceaser, uma deliciosa salada com frango!",
       "fav": 6.921,
       "imagePath": "/assets/MicrosoftTeams-image (23).png",
       "link": "#"
@@ -55,7 +55,7 @@
     {
       "id": "limonada",
       "nome": "Limonada Rosa",
-      "desc": "Para refrescar e dar energia a sua manhã de forma plena e saudável",
+      "desc": "Limonada fica melhor com gelo e você fica melhor com limonada, faça essa simples receita para refrescar seu dia",
       "fav": 3.478,
       "imagePath":" /assets/MicrosoftTeams-image (16).png",
       "link": "#"
@@ -63,7 +63,7 @@
     {
       "id": "milkshale",
       "nome": "Milkshake de Framboesa",
-      "desc": "Uma sobremesa crocante de recheio macio para te fazer sentir como uma verdadeira francesa em uma manhã de Paris!",
+      "desc": "Assim como as framboesas são do inverno, sua bebida fica melhor gelada. Tente fazer um milkshake de framboesa",
       "fav": 3.648,
       "imagePath": "/assets/MicrosoftTeams-image (15).png",
       "link": "#"
@@ -71,10 +71,10 @@
     {
       "id": "refresher",
       "nome": "Refresher Tropical",
-      "desc":"Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!!",
+      "desc":"Para quem sempre quis saber o sabor do suco dos deuses, esse tropical vai te levar ao monte Olimpo",
       "fav": 6.452,
       "imagePath": "/assets/MicrosoftTeams-image (17).png",
       "link": "#"
     }
-  ],
+  ]
 }

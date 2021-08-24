@@ -16,6 +16,7 @@ import { SalgadoComponent } from './salgados/salgado/salgado.component';
 import { EbbidaComponent } from './bebidas/ebbida/ebbida.component';
 import { SalgadoService } from './salgados/salgado.service';
 import { BebidaService } from './bebidas/bebida.service';
+import { CaeserComponent } from './salgados/salgado/caeser/caeser.component';
 
 
 
@@ -29,7 +30,8 @@ import { BebidaService } from './bebidas/bebida.service';
     BebidasComponent,
     DoceComponent,
     SalgadoComponent,
-    EbbidaComponent
+    EbbidaComponent,
+    CaeserComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
