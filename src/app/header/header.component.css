@@ -2,6 +2,9 @@
     background-color: #ff0095;
     border-radius: 10px;
 }
+.temas{
+    justify-content: space-between;
+}
 a{
     color: #ffffff;
     text-decoration: #c40072;
@@ -18,4 +21,66 @@ a{
 form .btn{
     border:1px solid #c40072;
     color: #c40072;
+}
+@media(max-width: 1262px) and (min-width: 1200px){
+    .navbar{
+        width: 97%!important;
+    }
+}
+@media(max-width: 1262px) and (min-width: 1263px){
+    .navbar{
+        width: 100%!important;
+    }
+}
+@media(max-width: 1085px)  and (min-width: 1013px){
+    .navbar{
+        width: 92%!important;
+    }
+}
+@media(max-width: 1013px)  and (min-width: 992px){
+    .navbar{
+        width: 90%!important;
+    }
+    #nome{
+        display: none;
+    }
+}
+@media(max-width: 992px)  and (min-width: 840px){
+    .navbar{
+        width: 100%!important;
+    }
+    #nome, form{
+        display: none;
+    }
+}
+@media(max-width: 840px)  and (min-width: 772px){
+    .navbar{
+        width: 89%!important;
+    }
+    #nome, form{
+        display: none;
+    }
+}
+@media(max-width: 772px)  and (min-width: 507px){
+    .navbar{
+        width: 48%!important;
+    }
+    #nome, form{
+        display: none;
+    }
+}
+@media(max-width: 507px)  and (min-width: 360px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar{
+        width: 1500px;
+        height: 9rem;
+        margin-top: -2rem;
+        margin-left: -5rem;
+    }
+    #nome, form{
+        display: none;
+    }
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Salg } from '../salgados/salgado/salgado.model';
 import { DoceService } from './doce.service';
-import { Candy } from './doce/doce.model';
 
 @Component({
   selector: 'app-doces',
@@ -9,7 +9,7 @@ import { Candy } from './doce/doce.model';
 })
 export class DocesComponent implements OnInit {
 
-  doces: Candy[] = [];
+  doces: Salg[] = [];
 
   constructor(private dcService : DoceService) { }
 

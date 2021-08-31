@@ -4,6 +4,7 @@ import { ToastrService } from 'ngx-toastr';
 import { EMPTY, Observable } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { ROSES_API } from '../app.api';
+import { Salg } from '../salgados/salgado/salgado.model';
 import { Drink } from './ebbida/bebida.model';
 
 @Injectable({
@@ -13,8 +14,8 @@ export class BebidaService {
 
   constructor(private http: HttpClient, private tst: ToastrService) { }
 
-  beb(): Observable<Drink[]> {
-    return this.http.get<Drink[]>(`${ROSES_API}/bebidas`).pipe(
+  beb(): Observable<Salg[]> {
+    return this.http.get<Salg[]>(`${ROSES_API}/bebidas`).pipe(
       map(candy => candy),
       catchError(erro => this.error(erro))
     );
@@ -28,4 +29,29 @@ export class BebidaService {
   exibirMsg(titulo: string, mensagem: string, tipo: string): void {
     this.tst.show(mensagem, titulo, { closeButton: true, progressBar: true }, tipo)
   };
+
+  private dados: any = []
+
+  guardar(index: string, dados:any): boolean{
+    if(index){
+      this.dados[index] = dados;
+      return true;
+    }
+    else{
+      return false
+    }
+  }
+
+  pegar(index: string):any{
+    if(index){
+      return this.dados[index];
+    }
+    else{
+      return null;
+    }
+  }
+
+  deletar(index: string): boolean{
+    return delete this.dados[index];
+  }
 }

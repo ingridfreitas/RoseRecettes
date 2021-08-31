@@ -4,25 +4,116 @@
       "id": "macarons",
       "nome": "Macarons",
       "desc": "Uma sobremesa crocante de recheio macio para te fazer sentir como uma verdadeira francesa em uma manhã de Paris!",
-      "fav": 7.009,
-      "imagePath":" /assets/MicrosoftTeams-image (18).png",
-      "link": "#"
+      "fav": 24.554,
+      "imagePath": " /assets/MicrosoftTeams-image (18).png",
+      "link": "#",
+      "ingredientes": [
+        "90 g de farinha de amêndoas ou farinha de castanha de caju",
+        "40g de farinha de trigo",
+        "200g de açúcar de confeiteiro",
+        "3 claras de ovos",
+        "3 colheres de sopa de chocolate em pó",
+        "30g de açúcar refinado",
+        "20 gotas de corante alimentício. Cor a gosto"
+      ],
+      "modePreAdj": [
+        "Derreta o chocolate no microondas;",
+        "Leve os ingredientes do recheio ao fogo baixo misturando bem até formar um creme liso;"
+      ],
+      "nomeAdj": "Recheio Ganache",
+      "adjacentes": [
+        "1 colher de sopa de manteiga",
+        "130 g de chocolate em barra ao leite",
+        "3 colheres de sopa de nata ( creme de leite fresco)"
+      ],
+      "modoPreparo": [
+        "Misture a farinha de amêndoas, afarinha de trigo, o açúcar de confeiteiro e o chocolate;",
+        "Passe a mistura por uma peneira para obter um pó fininho, reserve;",
+        "Aqueça as claras no microondas por 30 segundos, mexa, veja se perdeu um pouco da viscosidade, se necessário coloque por mais 30 seguntos até deixar morninho;",
+        "Coloque as claras numa batedeira, bata até formar clara em neve, depois misture aos poucos o açúcar refinado;",
+        "Quando formar um creme firminho acrescente o corante misturando bem;",
+        "Desligue a batedeira e acrescente a mistura que você peneirou aos poucos misturando com um batedor;",
+        "Quando tiver bem homogêneo coloque a massa num saco de confeiteiro;",
+        "Pegue uma forma forrada com papel manteiga e untada com farinha e manteiga, esprema o saco de modo que sejam dispostas na forma 40 bolinhas;",
+        "Deixe descansar por 20 minutos, as bolinhas ficarão achatadas edevem ter aproximadamente 2 cm de largura cada, não esqueça de deixar um espacinho entre cada macaron.",
+        "Leve ao forno pré-aquecido a 170 graus por aproximadamente 15 minutos, sendo que deve-se deixar o forno entre-aberto com uma colher de pau nos últimos 8 minutos;",
+        "Deixe esfriar e desenforme. Caso fique difícil de tirá-los da forma sem quebrá-los, umedeça a forma com um pouco de água para que o papel manteiga absorva essa água soltanto mais facilmente os macarons;",
+        "Recheie uma face do macaron e feche com outro macarron como se fosse um biscoito recheado."
+      ],
+      "porcoes": "20",
+      "tempoPreparo": "30",
+      "obs": "Tome cuidado para não deixar a clara cozinhar no microondas"
     },
     {
       "id": "iogurte",
       "nome": "Iogurte Caseiro",
       "desc": "Para refrescar e dar energia a sua manhã de forma plena e saudável, além de ser uma verdadeira delícia!",
-      "fav": 3.478,
+      "fav": 2.942,
       "imagePath": "/assets/MicrosoftTeams-image (19).png",
-      "link": "#"
+      "link": "#",
+      "ingredientes": [
+        "1 l de leite",
+        "100 g iogurte natural pronto"
+      ],
+      "modePreAdj": [
+        "Forre o interior de um funil ou peneira com um pano limpo, coloque o iogurte, cubra com um filme plástico e leve à geladeira.",
+        "Deixe que o líquido escorra por 12 horas e você terá um iogurte firme, com textura de 'cream cheese', que pode ser utilizado para preparar um delicioso cheesecake.",
+        "Se quiser adicionar sabor a este creme de iogurte, misture-o com algum tipo de suco, antes de colocar na geladeira.",
+        "Os sólidos do suco vão ficar no creme quando o líquido escorrer e todo o sabor vai permanecer."
+      ],
+      "nomeAdj": "Iogurte com sabor e textura (Opcional)",
+      "adjacentes": [
+        "Suco (a gosto)",
+        "Frutas (a gosto)"
+      ],
+      "modoPreparo": [
+        "Aqueça 1 litro de leite a 85°c e deixe que esfrie até 43°c.",
+        "Misture com 100 g de iogurte natural pronto e mexa até dissolver ou bata no liquidificador.",
+        "Cubra com um prato, embrulhe em duas ou três toalhas e coloque em um lugar protegido.",
+        "Deixe descansar por 5 horas, desembrulhe, cubra com filme plástico e leve à geladeira",
+        "No momento de usar, separe uma parte desse iogurte e guarde para o preparo do próximo."
+      ],
+      "porcoes": "10",
+      "tempoPreparo": "20"
     },
     {
       "id": "cake",
       "nome": "Bolo de Morango",
-      "desc":" Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!",
+      "desc": " Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!",
       "fav": 6.921,
       "imagePath": "/assets/MicrosoftTeams-image (20).png",
-      "link": "#"
+      "link": "#",
+      "ingredientes": [
+        "1 xícara (chá) de água",
+        "1 xícara (chá) de Nesquick",
+        "4 colheres (sopa) de manteiga",
+        "3 ovos",
+        "1 e 1/2 xícaras (chá) de açúcar",
+        "3 xícaras (chá) de farinha de trigo",
+        "1 colher (sopa) de fermento em pó químico",
+        "10 morangos cortados ao meio para decorar"
+      ],
+      "modePreAdj": [
+        "Para a cobertura, em uma panela misture o morango, o açúcar e o suco de limão.",
+        "Leve ao fogo baixo e deixe levantar fervura.",
+        "Cozinhe por 5 minutos e deixe esfriar."
+      ],
+      "nomeAdj": "Cobertura",
+      "adjacentes": [
+        "1 caixa de morangos picados (300g)",
+        "1 xícara (chá) de açúcar",
+        "Suco de 1 limão"
+      ],
+      "modoPreparo": [
+        "No liquidificador, bata a água, o Nesquick, a manteiga, os ovos e o açúcar até ficar homogêneo.",
+        "Transfira para uma tigela, adicione a farinha e o fermento e misture com uma colher.",
+        "Despeje em uma fôrma de buraco no meio de 30 cm de diâmetro untada e enfarinhada e leve ao forno médio, preaquecido, por 35 minutos ou até dourar.",
+        "Retire e deixe esfriar.",
+        "Desenforme o bolo, cubra com metade da cobertura, arrume os morangos cortados ao meio sobre o bolo e cubra com a cobertura restante.",
+        "Sirva em seguida."
+      ],
+      "porcoes": "10",
+      "tempoPreparo": "1h 30"
     }
   ],
   "salgados": [
@@ -31,8 +122,40 @@
       "nome": "Torta de Frango",
       "desc": "Todo mundo sabe comer uma boa torta, descubra se consegue fazer. Coloque suas habilidades em prática!",
       "fav": 7.009,
-      "imagePath":" /assets/MicrosoftTeams-image (21).png",
-      "link": "#"
+      "imagePath": " /assets/MicrosoftTeams-image (21).png",
+      "link": "#",
+      "ingredientes": [
+        "250 ml de leite",
+        "3/4 de xícara (chá) de óleo",
+        "2 ovos",
+        "1 e 1/2 xícara (chá) de farinha de trigo",
+        "1 colher (sopa) de fermento em pó",
+        "Queijo ralado a gosto"
+      ],
+      "modePreAdj": [
+        "Cozinhe o peito de frango no caldo até ficar macio.",
+        "Separe 1 xícara (chá) de caldo do cozimento e reserve.",
+        "Refogue os demais ingredientes e acrescente as ervilhas por último.",
+        "Desfie o frango, misture ao caldo e deixe cozinhar até secar."
+      ],
+      "nomeAdj": "Recheio",
+      "adjacentes": [
+        "500 g de peito de frango sem pele",
+        "1/2 litro de caldo de galinha",
+        "4 colheres (sopa) de óleo",
+        "1 dente de alho amassado",
+        "1 cebola picada",
+        "3 tomates sem pele e sem sementes"
+      ],
+      "modoPreparo": [
+        "Bata o leite, o óleo e os ovos no liquidificador em velocidade baixa.",
+        "Acrescente aos poucos a farinha, o sal e o fermento.",
+        "Despeje metade da massa em uma forma untada e adicione o recheio sobre ela.",
+        "Cubra com o restante de massa e o queijo ralado.",
+        "Leve ao forno preaquecido (180° C) até dourar."
+      ],
+      "porcoes": "15",
+      "tempoPreparo": "40"
     },
     {
       "id": "salpicao",
@@ -40,15 +163,59 @@
       "desc": "Quem disse que salpicão pertence ao ano novo? Coisa boa deve ser feita todo dia para a sua família!!",
       "fav": 3.478,
       "imagePath": "/assets/MicrosoftTeams-image (22).png",
-      "link": "#"
+      "link": "#",
+      "ingredientes": [
+        "500 g de peito de frango cozido e desfiado",
+        "2 cenouras grandes raladas",
+        "1 lata de ervilha",
+        "1 lata de milho verde",
+        "200 g de uva passa",
+        "1 maçã",
+        "Maionese a gosto",
+        "Cheiro-verde a gosto",
+        "Batata-palha a gosto"
+      ],
+      "modoPreparo": [
+        "Misture todos os ingredientes, menos a batata palha.",
+        "Depois de tudo misturado, forre com a batata palha.",
+        "Depois e só servir."
+      ],
+      "porcoes": "8",
+      "tempoPreparo": "20"
     },
     {
       "id": "cake",
       "nome": "Salada Caeser",
-      "desc":"Bora americanizar seu dia? Saudável e gostosa, tente a ceaser, uma deliciosa salada com frango!",
+      "desc": "Bora americanizar seu dia? Saudável e gostosa, tente a ceaser, uma deliciosa salada com frango!",
       "fav": 6.921,
       "imagePath": "/assets/MicrosoftTeams-image (23).png",
-      "link": "#"
+      "link": "#",
+      "ingredientes": [
+        "1 alface americana lavada, higienizada e picada grosseiramente",
+        "1 peito de frango sem osso, temperado, grelhado e picado em tiras (opcional)",
+        "1 xícara de parnesão ralado grosseiramente",
+        "2 xícaras de croutons bem crocantes (feitos com pão de forma sem casca)"
+      ],
+      "modePreAdj": [
+        "Coloque todos os ingredientes no liquidificador, bata bem pouco, somente para unir os ingredientes, se bater demais irá virar uma maionese."
+      ],
+      "nomeAdj": "Molho",
+      "adjacentes": [
+        "1/2 xícara de óleo (milho, canola ou girasol)",
+        "1/2 xícara de azeite de boa qualidade",
+        "1 gema",
+        "2 dentes de alho amassados",
+        "1 colher de sopa mostarda",
+        "1 colher de sopa de suco de limão"
+      ],
+      "modoPreparo": [
+        "Arrume a alface em uma saladeira funda, coloque o frango em tiras (opcional) e regue com o molho, polvilhe o parmesão.",
+        "Cubra com os croutons somente na hora de servir para não amolecer.",
+        "Acompanhado de um bom bife à milanesa não há quem resista."
+      ],
+      "obs": "O molho é feito com a gema crua, mas poderá ser utilizada a gema do ovo cozido e frio.",
+      "porcoes": "3",
+      "tempoPreparo": "30"
     }
   ],
   "bebidas": [
@@ -57,24 +224,66 @@
       "nome": "Limonada Rosa",
       "desc": "Limonada fica melhor com gelo e você fica melhor com limonada, faça essa simples receita para refrescar seu dia",
       "fav": 3.478,
-      "imagePath":" /assets/MicrosoftTeams-image (16).png",
-      "link": "#"
+      "imagePath": " /assets/MicrosoftTeams-image (16).png",
+      "link": "#",
+      "ingredientes": [
+        "1 xícara de suco de Limão Siciliano (aproximadamente 2 1/2 limões)",
+        "2 xícaras de água",
+        "1 xícara de Suco de Groselha",
+        "1/4 de xícara de Açúcar Refinado",
+        "Gelo",
+        "Cerejas para decorar"
+      ],
+      "modoPreparo": [
+        "Junte todos os ingredientes num pote de vidro com tampa e chacoalhe bem.",
+        "Sirva em copos com uma cerejinha e bastante gelo.",
+        "Para decorar, corte uma fatia de limão. Tim tim!"
+      ],
+      "porcoes": "4",
+      "tempoPreparo": "5"
     },
     {
       "id": "milkshale",
-      "nome": "Milkshake de Framboesa",
+      "nome": "Suco de Framboesa",
       "desc": "Assim como as framboesas são do inverno, sua bebida fica melhor gelada. Tente fazer um milkshake de framboesa",
       "fav": 3.648,
       "imagePath": "/assets/MicrosoftTeams-image (15).png",
-      "link": "#"
+      "link": "#",
+      "ingredientes": [
+        "200 g de framboesas",
+        "1 copo de sopa de Leite Condensado Magro NESTLÉ",
+        "1 copo de leite"
+      ],
+      "modoPreparo": [
+        "Coloque as framboesas lavadas e o leite condensado no liquidificador.",
+        "Bata até ficar misturado e adicione o leite, batendo sempre.",
+        "Sirva em copos bem frios e decore com algumas framboesas."
+      ],
+      "porcoes": "2",
+      "tempoPreparo": "15"
     },
     {
       "id": "refresher",
       "nome": "Refresher Tropical",
-      "desc":"Para quem sempre quis saber o sabor do suco dos deuses, esse tropical vai te levar ao monte Olimpo",
+      "desc": "Para quem sempre quis saber o sabor do suco dos deuses, esse tropical vai te levar ao monte Olimpo",
       "fav": 6.452,
       "imagePath": "/assets/MicrosoftTeams-image (17).png",
-      "link": "#"
+      "link": "#",
+      "ingredientes": [
+        "1/3 do Shaker de Gelo Pilado",
+        "1/2 colher de Curaçau",
+        "1 colher de Orchata",
+        "2 colheres de açúcar",
+        "1 gema",
+        "Café frio"
+      ],
+      "modoPreparo": [
+        "Misture todos os ingredientes em um copo grande",
+        "Agite a mistura violentamente",
+        "Aguarde um instante e sirva-se"
+      ],
+      "porcoes": "2",
+      "tempoPreparo": "15"
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Salg } from '../salgados/salgado/salgado.model';
 import { BebidaService } from './bebida.service';
 import { Drink } from './ebbida/bebida.model';
 
@@ -9,14 +10,15 @@ import { Drink } from './ebbida/bebida.model';
 })
 export class BebidasComponent implements OnInit {
 
-  bebs: Drink[] = [];
+  drinks: Salg[] = [];
 
   constructor(private bbService : BebidaService) { }
 
   ngOnInit(): void {
     this.bbService.beb().subscribe(retorno =>{
-      this.bebs = retorno;
+      this.drinks = retorno;
     });
+    console.log(this.drinks);
   }
 
 }

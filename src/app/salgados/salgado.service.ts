@@ -13,7 +13,7 @@ export class SalgadoService {
 
   constructor(private http: HttpClient, private tst: ToastrService) { }
 
-  sal(): Observable<Salg[]> {
+  salgados(): Observable<Salg[]> {
     return this.http.get<Salg[]>(`${ROSES_API}/salgados`).pipe(
       map(candy => candy),
       catchError(erro => this.error(erro))
@@ -27,4 +27,30 @@ export class SalgadoService {
 
   exibirMsg(titulo: string, mensagem: string, tipo: string): void {
     this.tst.show(mensagem, titulo, { closeButton: true, progressBar: true }, tipo)
-  };}
+  };
+
+  private dados: any = []
+
+  guardar(index: string, dados:any): boolean{
+    if(index){
+      this.dados[index] = dados;
+      return true;
+    }
+    else{
+      return false
+    }
+  }
+
+  pegar(index: string):any{
+    if(index){
+      return this.dados[index];
+    }
+    else{
+      return null;
+    }
+  }
+
+  deletar(index: string): boolean{
+    return delete this.dados[index];
+  }
+}

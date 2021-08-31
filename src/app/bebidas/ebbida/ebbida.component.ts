@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Drink } from './bebida.model';
+import { Router } from '@angular/router';
+import { Salg } from 'src/app/salgados/salgado/salgado.model';
+import { BebidaService } from '../bebida.service';
 
 @Component({
   selector: 'app-ebbida',
@@ -8,11 +10,18 @@ import { Drink } from './bebida.model';
 })
 export class EbbidaComponent implements OnInit {
 
-  @Input() bebidas: Drink;
+  @Input() drinks: Salg;
 
-  constructor() { }
+  constructor (private route: Router, private bbService: BebidaService) { }
 
   ngOnInit(): void {
+
+  }
+
+  abrir(drinks: Salg){
+    this.bbService.guardar('drinks',drinks);
+    this.route.navigateByUrl('drinks');
+    console.log('Okay', this.drinks)
   }
 
 }

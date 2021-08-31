@@ -9,13 +9,14 @@ import { Salg } from './salgado/salgado.model';
 })
 export class SalgadosComponent implements OnInit {
 
-  sal: Salg[] = [];
+  salgados: Salg[] = [];
 
   constructor(private sgService: SalgadoService) { }
 
   ngOnInit(): void {
-    this.sgService.sal().subscribe(retorno => {
-      this.sal = retorno;
+    this.sgService.salgados().subscribe(retorno => {
+      this.salgados = retorno;
+      console.log(this.salgados)
     })
   }
 

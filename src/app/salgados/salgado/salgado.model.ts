@@ -4,5 +4,13 @@ export interface Salg{
     desc: string,
     fav: number,
     imagePath: string,
-    link: string
+    link: string,
+    ingredientes: string[]
+    nomeAdj?: string
+    adjacentes?: string[]
+    modePreAdj?: string[]
+    modoPreparo: string[]
+    obs?: string
+    porcoes: number
+    tempoPreparo: number
 }

@@ -1,0 +1,49 @@
+<div class="row mt-2">
+    <div class="col-md-5">
+        <div class="card">
+            <img [src]="salgados.imagePath">
+        </div>
+        <div class="card mt-2">
+            <div class="row">
+                <div class="col-md-4 ttfig">
+                    <span class="las la-cookie-bite"></span>
+                    <p>{{ salgados.nome }}</p>
+                </div>
+                <div class="col-md-4 ttfig">
+                    <span class="las la-stopwatch"></span>
+                    <p>{{salgados.tempoPreparo}} min</p>
+                </div>
+                <div class="col-md-4 ttfig">
+                    <span class="las la-utensils"></span>
+                    <p>{{salgados.porcoes}} Porções</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="card ingredientes">
+            <h2>Ingredientes: </h2>
+            <ul>
+                <li *ngFor="let ing of salgados.ingredientes"><span>{{ing}}</span></li>
+            </ul>
+            <h4 class="ad" *ngIf="salgados.adjacentes">{{salgados.nomeAdj}}:</h4>
+            <ul>
+                <li *ngFor="let adj of salgados.adjacentes"><span>{{adj}}</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card mode mt-2">
+    <h2>Modo de Preparo: </h2>
+    <div class="adj" *ngIf="salgados.adjacentes">
+        <h4>{{salgados.nomeAdj}}:</h4>
+        <ol>
+            <li *ngFor="let modePreAdj of salgados.modePreAdj"><span>{{modePreAdj}}</span></li>
+        </ol>
+    </div>
+    <hr>
+    <ol>
+        <li *ngFor="let modePre of salgados.modoPreparo"><span>{{modePre}}</span></li>
+    </ol>
+    <p *ngIf="salgados.obs" class="obs">PS: {{salgados.obs}}</p>
+</div>

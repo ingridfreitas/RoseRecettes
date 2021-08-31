@@ -2,13 +2,12 @@
     margin-bottom: 3rem;
     border-radius: 10px;
 }
-
-.card-img-top {
-    height: 200px;
-}
 img{
     height: 450px;
     border-radius: 10px;
+}
+.card-img-top {
+    height: 200px;
 }
 .esti{
     font-family: Helvetica;
@@ -38,4 +37,107 @@ span{
 }
 .fig{
     color: #ff004c;
+}
+@media(max-width: 1262px) and (min-width: 1213px){
+    .carousel-item>img{
+        height: 500px;
+        width: 97%!important;
+    }
+    .row{
+        width: 99%!important;
+    }
+}
+@media(max-width: 1262px) and (min-width: 1200px){
+    .carousel-item>img{
+        height: 500px;
+        width: 97%!important;
+    }
+    .row{
+        width: 99%!important;
+    }
+}
+@media(max-width: 1262px) and (min-width: 1263px){
+    .carousel-item>img{
+        height: 500px;
+        width: 97%!important;
+    }
+    .row{
+        width: 99%!important;
+    }
+}
+@media(max-width: 1085px)  and (min-width: 1013px){
+    .carousel-item>img{
+        height: 500px;
+        width: 92%!important;
+    }
+    .row{
+        width: 95%!important;
+    }
+}
+@media(max-width: 1013px)  and (min-width: 992px){
+    .carousel-item>img{
+        height: 500px;
+        width: 90%!important;
+    }
+    .row{
+        width: 93%!important;
+    }
+}
+@media(max-width: 840px)  and (min-width: 772px){
+    .carousel-item>img{
+        height: 400px;
+        width: 89%!important;
+    }
+    .row{
+        width: 92%!important;
+    }
+}
+@media(max-width: 772px)  and (min-width: 507px){
+    .carousel-item>img{
+        height: 400px;
+        width: 757px;
+    }
+    .row{
+        width: 92%!important;
+    }
+    .card{
+        width: 50%!important;
+    }
+}
+@media(max-width: 507px)  and (min-width: 360px){
+    .carousel-item>img{
+        height: 700px;
+        width: 1400px;
+    }
+    .row{
+        width: 92%!important;
+    }
+    .card{
+        width: 1400px;
+    }
+    .carousel{
+        width: 1400px;
+    }
+    .card-img-top {
+        height: 400px;
+        width: 1400px;
+    }
+    .carousel-inner{
+        height: 700px;
+    }
+    .card-receitas{
+        width: 1400px;
+    }
+    .card-body{
+        height: 300px;
+    }
+    h5{
+        font-size: 50px;
+    }
+    .card-text{
+        font-size: 40px;
+    }
+    .btn{
+        height: 70px;
+    }
 }
