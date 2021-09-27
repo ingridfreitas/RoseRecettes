@@ -285,5 +285,22 @@
       "porcoes": "2",
       "tempoPreparo": "15"
     }
+  ],
+  "car": [
+    {
+      "imagePath": "../../assets/MicrosoftTeams-image (12).png",
+      "alt": "Imagem demonstrativa Rocambole Salgado",
+      "nome": "Rocambole Salgado"
+    },
+    {
+      "imagePath": "../../assets/MicrosoftTeams-image (11).png",
+      "alt": "Imagem demonstrativa Panquecas",
+      "nome": "Panquecas"
+    },
+    {
+      "imagePath": "../../assets/MicrosoftTeams-image (10).png",
+      "alt": "Imagem demonstrativa Drink de Morango",
+      "nome": "Pink Drink de Morango"
+    }
   ]
 }

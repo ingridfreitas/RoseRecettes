@@ -20,6 +20,7 @@ import { CaeserComponent } from './caeser/caeser.component';
 import { CandysComponent } from './candys/candys.component';
 import { DrinksComponent } from './drinks/drinks.component';
 import { AboutComponent } from './about/about.component';
+import { HomeService } from './home/home.service';
 
 
 
@@ -45,7 +46,7 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     ToastrModule.forRoot()
   ],
-  providers: [DoceService, SalgadoService, BebidaService],
+  providers: [DoceService, SalgadoService, BebidaService, HomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
