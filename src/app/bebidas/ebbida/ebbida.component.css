@@ -26,3 +26,6 @@ span{
     border-radius: 10px;
     height: 230px;
 }
+a{
+  text-decoration: none;
+}

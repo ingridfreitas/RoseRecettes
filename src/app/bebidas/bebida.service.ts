@@ -21,6 +21,18 @@ export class BebidaService {
     );
   }
 
+  bbById(id: String): Observable<Salg>{
+    return this.http.get<Salg>(`${ROSES_API}/bebidas/${id}`).pipe(
+      map(bebidas => bebidas),
+      catchError(erro => this.exibirErro(erro))
+    )
+  }
+
+  exibirErro(e: any): Observable<any>{
+    this.exibirMsg('ERRO!', 'Erro de Conexão com banco de dados', 'Json erro');
+    return EMPTY
+  }
+
   error(e: any): Observable<any> {
     this.exibirMsg('ERRO 4002!!!!', 'Banco de Dados não ativado', 'toastr-error');
     return EMPTY
@@ -29,29 +41,4 @@ export class BebidaService {
   exibirMsg(titulo: string, mensagem: string, tipo: string): void {
     this.tst.show(mensagem, titulo, { closeButton: true, progressBar: true }, tipo)
   };
-
-  private dados: any = []
-
-  guardar(index: string, dados:any): boolean{
-    if(index){
-      this.dados[index] = dados;
-      return true;
-    }
-    else{
-      return false
-    }
-  }
-
-  pegar(index: string):any{
-    if(index){
-      return this.dados[index];
-    }
-    else{
-      return null;
-    }
-  }
-
-  deletar(index: string): boolean{
-    return delete this.dados[index];
-  }
 }

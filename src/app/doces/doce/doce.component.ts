@@ -12,15 +12,9 @@ export class DoceComponent implements OnInit {
 
   @Input() doces: Salg;
 
-  constructor (private route: Router, private dcService: DoceService) { }
+  constructor () { }
 
   ngOnInit(): void {
 
-  }
-
-  abrir(doces: Salg){
-    this.dcService.guardar('doces',doces);
-    this.route.navigateByUrl('candys');
-    console.log('Okay', this.doces)
   }
 }

@@ -1,0 +1,12 @@
+<h2>Modo de Preparo: </h2>
+<div class="adj" *ngIf="detalhes.adjacentes">
+  <h4>{{detalhes.nomeAdj}}:</h4>
+  <ol>
+    <li *ngFor="let modePreAdj of detalhes.modePreAdj"><span>{{modePreAdj}}</span></li>
+  </ol>
+</div>
+<hr>
+<ol>
+  <li *ngFor="let modePre of detalhes.modoPreparo"><span>{{modePre}}</span></li>
+</ol>
+<p *ngIf="detalhes.obs" class="obs">PS: {{detalhes.obs}}</p>

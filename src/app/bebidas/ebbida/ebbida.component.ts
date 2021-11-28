@@ -12,16 +12,9 @@ export class EbbidaComponent implements OnInit {
 
   @Input() drinks: Salg;
 
-  constructor (private route: Router, private bbService: BebidaService) { }
+  constructor () { }
 
   ngOnInit(): void {
 
   }
-
-  abrir(drinks: Salg){
-    this.bbService.guardar('drinks',drinks);
-    this.route.navigateByUrl('drinks');
-    console.log('Okay', this.drinks)
-  }
-
 }

@@ -12,15 +12,9 @@ export class SalgadoComponent implements OnInit {
 
   @Input() salgados: Salg;
 
-  constructor (private route: Router, private sgService: SalgadoService) { }
+  constructor () { }
 
   ngOnInit(): void {
 
-  }
-
-  abrir(salgados: Salg){
-    this.sgService.guardar('salgados',salgados);
-    this.route.navigateByUrl('caeser');
-    console.log('Okay', this.salgados)
   }
 }

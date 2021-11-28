@@ -1,0 +1,31 @@
+<div class="row mt-2">
+  <div class="col-md-5">
+    <div class="card">
+      <img [src]="detalhes.imagePath">
+    </div>
+    <div class="card mt-2">
+      <div class="row">
+        <div class="col-md-4 ttfig">
+          <span class="las la-cookie-bite"></span>
+          <p>{{ detalhes.nome }}</p>
+        </div>
+        <div class="col-md-4 ttfig">
+          <span class="las la-stopwatch"></span>
+          <p>{{detalhes.tempoPreparo}} min</p>
+        </div>
+        <div class="col-md-4 ttfig">
+          <span class="las la-utensils"></span>
+          <p>{{detalhes.porcoes}} Porções</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <div class="card ingredientes">
+      <app-ing [detalhes]="detalhes"></app-ing>
+    </div>
+  </div>
+</div>
+<div class="card mode mt-2">
+  <app-mode [detalhes]="detalhes"></app-mode>
+</div>

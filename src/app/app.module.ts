@@ -16,11 +16,11 @@ import { SalgadoComponent } from './salgados/salgado/salgado.component';
 import { EbbidaComponent } from './bebidas/ebbida/ebbida.component';
 import { SalgadoService } from './salgados/salgado.service';
 import { BebidaService } from './bebidas/bebida.service';
-import { CaeserComponent } from './caeser/caeser.component';
-import { CandysComponent } from './candys/candys.component';
-import { DrinksComponent } from './drinks/drinks.component';
 import { AboutComponent } from './about/about.component';
 import { HomeService } from './home/home.service';
+import { DetalhesComponent } from './detalhes/detalhes.component';
+import { IngComponent } from './detalhes/ing/ing.component';
+import { ModeComponent } from './detalhes/mode/mode.component';
 
 
 
@@ -35,10 +35,10 @@ import { HomeService } from './home/home.service';
     DoceComponent,
     SalgadoComponent,
     EbbidaComponent,
-    CaeserComponent,
-    CandysComponent,
-    DrinksComponent,
-    AboutComponent
+    AboutComponent,
+    DetalhesComponent,
+    IngComponent,
+    ModeComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
