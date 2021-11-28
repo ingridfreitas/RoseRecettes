@@ -1,6 +1,8 @@
 img{
     height: 228px;
+    width: 195px;
     border-radius: 10px;
+    justify-content: center;
 }
 .btn-vw{
     background-color: #ff0095;

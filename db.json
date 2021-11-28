@@ -81,7 +81,7 @@
       "nome": "Bolo de Morango",
       "desc": " Uma sobremesa maravilhosa, pra que esperar um aniversário se pode fazer agora? aproveite!",
       "fav": 6.921,
-      "imagePath": "/assets/MicrosoftTeams-image (20).png",
+      "imagePath": "/assets/bolo2.png",
       "link": "#",
       "ingredientes": [
         "1 xícara (chá) de água",
@@ -122,7 +122,7 @@
       "nome": "Torta de Frango",
       "desc": "Todo mundo sabe comer uma boa torta, descubra se consegue fazer. Coloque suas habilidades em prática!",
       "fav": 7.009,
-      "imagePath": " /assets/MicrosoftTeams-image (21).png",
+      "imagePath": " /assets/torta.png",
       "link": "#",
       "ingredientes": [
         "250 ml de leite",
@@ -162,7 +162,7 @@
       "nome": "Salpicão",
       "desc": "Quem disse que salpicão pertence ao ano novo? Coisa boa deve ser feita todo dia para a sua família!!",
       "fav": 3.478,
-      "imagePath": "/assets/MicrosoftTeams-image (22).png",
+      "imagePath": "/assets/salpicao2.png",
       "link": "#",
       "ingredientes": [
         "500 g de peito de frango cozido e desfiado",
@@ -184,11 +184,11 @@
       "tempoPreparo": "20"
     },
     {
-      "id": "cake",
+      "id": "salada",
       "nome": "Salada Caeser",
       "desc": "Bora americanizar seu dia? Saudável e gostosa, tente a ceaser, uma deliciosa salada com frango!",
       "fav": 6.921,
-      "imagePath": "/assets/MicrosoftTeams-image (23).png",
+      "imagePath": "/assets/caeser.png",
       "link": "#",
       "ingredientes": [
         "1 alface americana lavada, higienizada e picada grosseiramente",
@@ -224,7 +224,7 @@
       "nome": "Limonada Rosa",
       "desc": "Limonada fica melhor com gelo e você fica melhor com limonada, faça essa simples receita para refrescar seu dia",
       "fav": 3.478,
-      "imagePath": " /assets/MicrosoftTeams-image (16).png",
+      "imagePath": " /assets/ref.png",
       "link": "#",
       "ingredientes": [
         "1 xícara de suco de Limão Siciliano (aproximadamente 2 1/2 limões)",
@@ -267,19 +267,17 @@
       "nome": "Refresher Tropical",
       "desc": "Para quem sempre quis saber o sabor do suco dos deuses, esse tropical vai te levar ao monte Olimpo",
       "fav": 6.452,
-      "imagePath": "/assets/MicrosoftTeams-image (17).png",
+      "imagePath": "/assets/tropical.png",
       "link": "#",
       "ingredientes": [
-        "1/3 do Shaker de Gelo Pilado",
-        "1/2 colher de Curaçau",
-        "1 colher de Orchata",
-        "2 colheres de açúcar",
-        "1 gema",
-        "Café frio"
+        "1/2 copo de Suco de Abacaxi",
+        "1/4 copo de Suco de Cramberry",
+        "1/4 copo de Rum de Coco",
+        "Gelo a gosto"
       ],
       "modoPreparo": [
         "Misture todos os ingredientes em um copo grande",
-        "Agite a mistura violentamente",
+        "Agite a mistura",
         "Aguarde um instante e sirva-se"
       ],
       "porcoes": "2",
@@ -288,18 +286,38 @@
   ],
   "car": [
     {
+      "id": "cup",
+      "desc": "Adoce a boca com uma deliciosa e belíssima receita inglesa. Adocica meu amor!",
+      "fav": 7.009,
+      "imagePath": "../../assets/MicrosoftTeams-image (13).png",
+      "nome": "Cupcake"
+    },
+    {
+      "id": "lasanha",
+      "desc": "Uma massa italiana com um toque da cultura brasileira para alegrar seus domingos!",
+      "fav": 8.915,
+      "imagePath": "../../assets/MicrosoftTeams-image (14).png",
+      "nome": "Lasanha"
+    },
+    {
+      "id": "rocambole",
+      "desc": "Se delicie com essa receita simples e gostosa, ideal para um lanche com a família",
+      "fav": 3.478,
       "imagePath": "../../assets/MicrosoftTeams-image (12).png",
-      "alt": "Imagem demonstrativa Rocambole Salgado",
       "nome": "Rocambole Salgado"
     },
     {
+      "id": "panquecas",
+      "desc": "Que tal uma panqueca fácil e rápida de se fazer para um delicioso café da manhâ?",
+      "fav": 8.256,
       "imagePath": "../../assets/MicrosoftTeams-image (11).png",
-      "alt": "Imagem demonstrativa Panquecas",
       "nome": "Panquecas"
     },
     {
+      "id": "sw",
+      "desc": "Que tal uma bebida saudável, deliciosa e refrescante?",
+      "fav": 12.759,
       "imagePath": "../../assets/MicrosoftTeams-image (10).png",
-      "alt": "Imagem demonstrativa Drink de Morango",
       "nome": "Pink Drink de Morango"
     }
   ]
